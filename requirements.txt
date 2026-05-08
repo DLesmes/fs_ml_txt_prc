@@ -9,7 +9,10 @@ pandas==2.2.0
 requests==2.32.3
 # ml
 notebook==7.2.1
-scikit-learn==1.0.2
+scikit-learn==1.8.0
+torch 
+torchvision
+sentence_transformers>=5.4.1
 # fastapi
 fastapi==0.89.0
 uvicorn==0.20.0

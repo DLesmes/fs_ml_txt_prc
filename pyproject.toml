@@ -1,0 +1,21 @@
+[project]
+name = "fs-ml-txt-prc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4==4.12.3",
+    "fastapi==0.89.0",
+    "notebook==7.2.1",
+    "numpy==1.26.3",
+    "pandas==2.2.0",
+    "python-dotenv~=1.0.0",
+    "requests==2.32.3",
+    "scikit-learn==1.8.0",
+    "seaborn==0.13.2",
+    "sentence-transformers>=5.4.1",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "uvicorn==0.20.0",
+]
